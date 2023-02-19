@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{2cc1fad1-402f-43ce-98cd-3ac7a54e205a}</ProjectGuid>
+    <RootNamespace>PrimittiveEngeion</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 11.7.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Libarys\C++ Library\SDL2-2.0.22\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Libarys\C++ Library\SDL2-2.0.22\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;cudart_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CudaCompile>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="arrFunctions.cpp" />
+    <ClCompile Include="createObject.cpp" />
+    <ClCompile Include="equation.cpp" />
+    <ClCompile Include="MenuUI.cpp" />
+    <ClCompile Include="mesh.cpp" />
+    <ClCompile Include="PrimittiveEngeion.cpp" />
+    <ClCompile Include="TextRendering.cpp" />
+    <ClCompile Include="UIitems.cpp" />
+    <ClCompile Include="vectorMaths.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arrFunctions.h" />
+    <ClInclude Include="createObject.h" />
+    <ClInclude Include="cuda_kernel.cuh" />
+    <ClInclude Include="equation.h" />
+    <ClInclude Include="MenuUI.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="TextRendering.h" />
+    <ClInclude Include="TriangleSort.h" />
+    <ClInclude Include="UIitems.h" />
+    <ClInclude Include="vectorMaths.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Fonts\Nemeue\-.bmp" />
+    <Image Include="Fonts\Nemeue\0.bmp" />
+    <Image Include="Fonts\Nemeue\1.bmp" />
+    <Image Include="Fonts\Nemeue\2.bmp" />
+    <Image Include="Fonts\Nemeue\3.bmp" />
+    <Image Include="Fonts\Nemeue\4.bmp" />
+    <Image Include="Fonts\Nemeue\40.bmp" />
+    <Image Include="Fonts\Nemeue\41.bmp" />
+    <Image Include="Fonts\Nemeue\42.bmp" />
+    <Image Include="Fonts\Nemeue\45.bmp" />
+    <Image Include="Fonts\Nemeue\46.bmp" />
+    <Image Include="Fonts\Nemeue\47.bmp" />
+    <Image Include="Fonts\Nemeue\5.bmp" />
+    <Image Include="Fonts\Nemeue\52.bmp" />
+    <Image Include="Fonts\Nemeue\58.bmp" />
+    <Image Include="Fonts\Nemeue\6.bmp" />
+    <Image Include="Fonts\Nemeue\7.bmp" />
+    <Image Include="Fonts\Nemeue\8.bmp" />
+    <Image Include="Fonts\Nemeue\9.bmp" />
+    <Image Include="Fonts\Nemeue\A.bmp" />
+    <Image Include="Fonts\Nemeue\B.bmp" />
+    <Image Include="Fonts\Nemeue\C.bmp" />
+    <Image Include="Fonts\Nemeue\D.bmp" />
+    <Image Include="Fonts\Nemeue\E.bmp" />
+    <Image Include="Fonts\Nemeue\F.bmp" />
+    <Image Include="Fonts\Nemeue\G.bmp" />
+    <Image Include="Fonts\Nemeue\H.bmp" />
+    <Image Include="Fonts\Nemeue\I.bmp" />
+    <Image Include="Fonts\Nemeue\J.bmp" />
+    <Image Include="Fonts\Nemeue\K.bmp" />
+    <Image Include="Fonts\Nemeue\L.bmp" />
+    <Image Include="Fonts\Nemeue\M.bmp" />
+    <Image Include="Fonts\Nemeue\N.bmp" />
+    <Image Include="Fonts\Nemeue\O.bmp" />
+    <Image Include="Fonts\Nemeue\P.bmp" />
+    <Image Include="Fonts\Nemeue\Q.bmp" />
+    <Image Include="Fonts\Nemeue\R.bmp" />
+    <Image Include="Fonts\Nemeue\S.bmp" />
+    <Image Include="Fonts\Nemeue\T.bmp" />
+    <Image Include="Fonts\Nemeue\U.bmp" />
+    <Image Include="Fonts\Nemeue\V.bmp" />
+    <Image Include="Fonts\Nemeue\W.bmp" />
+    <Image Include="Fonts\Nemeue\X.bmp" />
+    <Image Include="Fonts\Nemeue\Y.bmp" />
+    <Image Include="Fonts\Nemeue\Z.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="text.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="cuda_kernel.cu" />
+    <CudaCompile Include="TiangleSort.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 11.7.targets" />
+  </ImportGroup>
+</Project>

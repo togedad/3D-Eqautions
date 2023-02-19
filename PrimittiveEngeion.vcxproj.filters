@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PrimittiveEngeion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vectorMaths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIitems.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRendering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="equation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arrFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="createObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vectorMaths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIitems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRendering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="equation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arrFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cuda_kernel.cuh" />
+    <ClInclude Include="TriangleSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="createObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Fonts\Nemeue\-.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\A.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\B.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\C.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\D.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\E.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\F.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\G.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\H.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\I.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\J.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\K.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\L.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\M.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\N.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\O.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\P.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\Q.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\R.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\S.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\T.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\U.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\V.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\W.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\X.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\Y.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\Z.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\40.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\41.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\42.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\45.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\46.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\47.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\52.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fonts\Nemeue\58.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="text.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="cuda_kernel.cu" />
+    <CudaCompile Include="TiangleSort.cpp">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
