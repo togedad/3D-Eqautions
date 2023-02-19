@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Libarys\C++ Library\SDL2-2.0.22\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>255</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SDL_FRectEqualsEpsilon</FUNCTION>
+    <DECORATED>SDL_FRectEqualsEpsilon</DECORATED>
+    <FUNCLINE>252</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Libarys\C++ Library\SDL2-2.0.22\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>256</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SDL_FRectEqualsEpsilon</FUNCTION>
+    <DECORATED>SDL_FRectEqualsEpsilon</DECORATED>
+    <FUNCLINE>252</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Libarys\C++ Library\SDL2-2.0.22\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>257</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SDL_FRectEqualsEpsilon</FUNCTION>
+    <DECORATED>SDL_FRectEqualsEpsilon</DECORATED>
+    <FUNCLINE>252</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Libarys\C++ Library\SDL2-2.0.22\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>258</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SDL_FRectEqualsEpsilon</FUNCTION>
+    <DECORATED>SDL_FRectEqualsEpsilon</DECORATED>
+    <FUNCLINE>252</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>mesh.h</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'triangle::corners' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>triangle::{ctor}</FUNCTION>
+    <DECORATED>??0triangle@@QEAA@XZ</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>triangle::corners</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>362</LINE>
+      <COLUMN>68</COLUMN>
+    </SFA>
+    <DEFECTCODE>6287</DEFECTCODE>
+    <DESCRIPTION>Redundant code.</DESCRIPTION>
+    <FUNCTION>drawTriangleVector</FUNCTION>
+    <DECORATED>?drawTriangleVector@@YAXUmatrix4x4@@PEAUSDL_Renderer@@V?$vector@Utriangle@@V?$allocator@Utriangle@@@std@@@std@@H_N33H@Z</DECORATED>
+    <FUNCLINE>318</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>564</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>566</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>569</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>570</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>572</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>617</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>617</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>619</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>619</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>621</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>623</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>628</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>630</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>630</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>632</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>632</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>634</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>PrimittiveEngeion.cpp</FILENAME>
+      <LINE>639</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>validateEquation</FUNCTION>
+    <DECORATED>?validateEquation@@YAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@Z</DECORATED>
+    <FUNCLINE>483</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

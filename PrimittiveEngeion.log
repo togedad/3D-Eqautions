@@ -1,0 +1,40 @@
+﻿  PrimittiveEngeion.cpp
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\equation.h(11,2): warning C4091: 'typedef ': ignored on left of 'Equation' when no variable is declared
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(173,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(174,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(175,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(177,57): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(178,57): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(179,57): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(181,57): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(182,57): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(183,57): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(419,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(420,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(421,12): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(422,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(432,26): warning C4838: conversion from 'int' to 'Uint8' requires a narrowing conversion
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(432,29): warning C4838: conversion from 'int' to 'Uint8' requires a narrowing conversion
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(432,32): warning C4838: conversion from 'int' to 'Uint8' requires a narrowing conversion
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(680,12): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(693,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(694,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(695,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(697,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(698,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(699,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(701,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(702,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(703,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(719,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(726,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(822,44): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(823,45): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(868,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(1018,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(1046,26): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(1173,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(1308,24): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(1310,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\PrimittiveEngeion.cpp(1426,57): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  PrimittiveEngeion.vcxproj -> C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\x64\Debug\PrimittiveEngeion.exe

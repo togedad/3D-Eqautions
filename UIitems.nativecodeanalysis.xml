@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Libarys\C++ Library\SDL2-2.0.22\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>255</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SDL_FRectEqualsEpsilon</FUNCTION>
+    <DECORATED>SDL_FRectEqualsEpsilon</DECORATED>
+    <FUNCLINE>252</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Libarys\C++ Library\SDL2-2.0.22\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>256</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SDL_FRectEqualsEpsilon</FUNCTION>
+    <DECORATED>SDL_FRectEqualsEpsilon</DECORATED>
+    <FUNCLINE>252</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Libarys\C++ Library\SDL2-2.0.22\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>257</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SDL_FRectEqualsEpsilon</FUNCTION>
+    <DECORATED>SDL_FRectEqualsEpsilon</DECORATED>
+    <FUNCLINE>252</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Libarys\C++ Library\SDL2-2.0.22\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>258</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SDL_FRectEqualsEpsilon</FUNCTION>
+    <DECORATED>SDL_FRectEqualsEpsilon</DECORATED>
+    <FUNCLINE>252</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>UIitems.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'menue::corners' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>menue::{ctor}</FUNCTION>
+    <DECORATED>??0menue@@QEAA@MMMMAEAVmenueBox@@@Z</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>menue::corners</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>UIitems.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'menue::cornerTextSideLen' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>menue::{ctor}</FUNCTION>
+    <DECORATED>??0menue@@QEAA@MMMMAEAVmenueBox@@@Z</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>menue::cornerTextSideLen</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>UIitems.cpp</FILENAME>
+      <LINE>51</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'menue::corners' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>menue::{ctor}</FUNCTION>
+    <DECORATED>??0menue@@QEAA@XZ</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>menue::corners</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\twhil\OneDrive\Desktop\programing projects\PrimittiveEngeion\</FILEPATH>
+      <FILENAME>UIitems.cpp</FILENAME>
+      <LINE>51</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'menue::cornerTextSideLen' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>menue::{ctor}</FUNCTION>
+    <DECORATED>??0menue@@QEAA@XZ</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>menue::cornerTextSideLen</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

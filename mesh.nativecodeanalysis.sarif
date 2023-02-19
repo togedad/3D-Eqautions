@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31629.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/twhil/onedrive/desktop/programing projects/primittiveengeion/mesh.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "de567465901b3cd23fa428ad5149aa562db07c945b7790105121fe77bfbce902"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/twhil/onedrive/desktop/programing projects/primittiveengeion/mesh.h"
+          },
+          "hashes": {
+            "sha-256": "0e2c0b8e4a1215f2495af4fcb5b074cbaeaea6eb10acf0ccb325d7383135a22a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/twhil/onedrive/desktop/programing projects/primittiveengeion/vectormaths.h"
+          },
+          "hashes": {
+            "sha-256": "44c00ad84fc44560adfc6f2c70a6e21286682232b486685b1b2e3b18cdb94d70"
+          }
+        }
+      ]
+    }
+  ]
+}
